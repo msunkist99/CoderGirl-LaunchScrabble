@@ -41,7 +41,7 @@ namespace LaunchScrabble
                     }
                     else if ((GetCharacter(words[i], 0, 1) == "q") && (GetCharacter(words[i], 1, 1) != "u"))
                     {
-                        Console.WriteLine($"Sorry - you entered an obviously incorrect word --- {words[i]}");
+                        Console.WriteLine($"Sorry - you entered an obviously incorrect word ---- {words[i]}");
                         score = 0;
                         return score;
                     }
