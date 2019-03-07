@@ -64,7 +64,7 @@ namespace LaunchScrabble
         /// <returns>characterString</returns>
         private static string GetCharacter(string word, int start, int length)
         {
-            string characterString = word.Substring(start, length);
+            string characterString = word.Substring(start, length).ToLower();
 
             return characterString;
         }
